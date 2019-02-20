@@ -1,0 +1,10 @@
+#put this in your ~/.bashrc via nano
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+#put this in your ~/.bash_aliases 
+
+alias subl="C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe" 
+alias udac="cd 'C:\Users\Sedaji\Desktop\Udacity'"
