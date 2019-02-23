@@ -6,8 +6,13 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	Staging area allows one to have absolute control over which files are to be included in each commit. 
+	This allows for a more ordered work space.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Staging area allows you to check how many files you wish to commit to a repository. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?

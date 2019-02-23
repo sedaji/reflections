@@ -1,0 +1,26 @@
+alias subl="C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe" 
+alias open="C:/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe" 
+alias udac="cd 'C:\Users\Sedaji\Desktop\Udacity'"
+alias notes="cd 'C:\Users\Sedaji\Desktop\Notes' && subl Notes.txt"
+alias notes1="cd 'C:\Users\Sedaji\Desktop\Notes' && subl Notes1.txt"
+alias notes2="cd 'C:\Users\Sedaji\Desktop\Notes' && subl Notes2.txt"
+alias notes3="cd 'C:\Users\Sedaji\Desktop\Notes' && subl Notes3.txt"
+
+
+
+# Enable tab completion
+source ~/git-completion.bash
+
+# colors!
+green="\[\033[0;32m\]"
+blue="\[\033[0;34m\]"
+purple="\[\033[0;35m\]"
+reset="\[\033[0m\]"
+
+# Change command prompt
+source ~/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+# '\u' adds the name of the current user to the prompt
+# '\$(__git_ps1)' adds git-related stuff
+# '\W' adds the name of the current directory
+export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
