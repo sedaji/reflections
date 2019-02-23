@@ -1,4 +1,4 @@
-How did vddiewing a diff between two versions of a file help you see the bug that
+How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
     It pinpointed which lines exactly changed.
